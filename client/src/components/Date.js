@@ -2,7 +2,7 @@ const DateSection = ({ date }) => {
     if (date) {
         return (
             <>
-                <h2 className="text-2xl">{date}</h2>
+                <h2 className="text-2xl flex self-center">{date}</h2>
             </>
         )
     } else {
